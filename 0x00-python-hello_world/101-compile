@@ -1,5 +1,5 @@
 #!/bin/bash
-python3 - "${PYFILE}" << EOF
+python3 - "${PYFILE}"<< EOF
 from sys import argv, stdout
 from py_compile import compile
 stdout.write(" ".join(("Compiling", argv[1], "...\n")))
