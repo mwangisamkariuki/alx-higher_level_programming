@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 str = "The Zen of Python, by Tim Peters\
-Beautiful
+Beautiful"
 str = str[0:30]
 print(str)
