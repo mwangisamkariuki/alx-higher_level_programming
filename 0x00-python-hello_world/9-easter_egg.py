@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-str = "The Zen of Python, by Tim Peters\
-Beautiful"
-str = str[0:30]
-print(str)
+with open('the-zen-of-python.txt') as f:
+contents = f.read()
+print(contents)
