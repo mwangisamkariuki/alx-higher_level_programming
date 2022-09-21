@@ -51,3 +51,14 @@
 
 # Task : 8. reate New sentences
     complete this code to print Object oriented Programming with python
+
+# Task: 9.Easter Egg
+    Write a Python script that prints “The Zen of Python”,
+    by TimPeters, followed by a new line.
+    Your script should be maximum 98
+    characters long (please check with wc -m 9-easter_egg.py)
+
+# Task : 10. C
+    Write a function in C that checks if a singly linked list has a cycle in it.
+    Prototype: int check_cycle(listint_t *list);
+    Return: 0 if there is no cycle, 1 if there is a cycle
