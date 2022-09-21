@@ -32,6 +32,19 @@
     The output of the program should be:
     Float:, followed by the float with only 2 digits
 
-# Task : 5. Print string
+# Task :5. Print string
     Complete this source code in order to print
     3 times a string stored in the variable str
+
+# Task :6. Play with strings
+    Complete this source code to print Welcome to Holberton School!
+
+# Task :7. Copy - Cut - Paste
+    Complete this source code
+    You can find the source code here
+    You are not allowed to use any loops or conditional statements
+    Your program should be exactly 8 lines long
+    word_first_3 should contain the first 3 letters of the variable word
+    word_last_2 should contain the last 2 letters of the variable word
+    middle_word should contain the value of the variable word without
+    the first and last letters
