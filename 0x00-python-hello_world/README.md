@@ -22,7 +22,14 @@
     followed by a new line.
     Use the function print
 
-# Task:3. Print integer
+# Task :3. Print integer
     complete given code to output 98 Battery street
 
+# Task :4. Print float
+    complete the source code in order to print the 
+    float stored in the variable number with a precision of 2 digits.
+    You can find the source code here
+    The output of the program should be:
+    Float:, followed by the float with only 2 digits
 
+# Task : 5
