@@ -32,4 +32,6 @@
     The output of the program should be:
     Float:, followed by the float with only 2 digits
 
-# Task : 5
+# Task : 5. Print string
+    Complete this source code in order to print
+    3 times a string stored in the variable str
