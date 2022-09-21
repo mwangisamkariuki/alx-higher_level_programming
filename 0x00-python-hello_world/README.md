@@ -48,3 +48,6 @@
     word_last_2 should contain the last 2 letters of the variable word
     middle_word should contain the value of the variable word without
     the first and last letters
+
+# Task : 8. reate New sentences
+    complete this code to print Object oriented Programming with python
