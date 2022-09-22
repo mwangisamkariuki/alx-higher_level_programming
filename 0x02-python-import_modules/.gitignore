@@ -1,1 +1,7 @@
-__pycache__
+#whitelist
+*
+!README.md
+!.gitignore
+!*.c
+!*.h
+!*.py
