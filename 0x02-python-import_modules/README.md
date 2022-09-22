@@ -7,8 +7,7 @@ the value 1 to a variable called a
 the value 2 to a variable called b**
 
 # Task 1: My first toolbox!
-```python
-Write a program that imports functions from the file calculator_1.py,
+**Write a program that imports functions from the file calculator_1.py,
 does some Maths, and prints the result.
 Do not use the function print (with string format to display integers) more than 4 times
 You have to define:
@@ -19,8 +18,8 @@ a and b must be defined in 2 different lines: a = 10 and another b = 5
 Your program should call each of the imported functions. See example below for format
 the word calculator_1 should be used only once in your file
 You are not allowed to use * for importing or __import__
-Your code should not be executed when imported
-```
+Your code should not be executed when imported**
+
 # Task 2: Write a program that prints the number of and the list of its arguments.
 **The output should be:
 Number of argument(s) followed by argument
@@ -51,3 +50,15 @@ Make sure you are running your code in Python3.8.x
 from the file variable_load_5.py and prints its value.
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported**
+
+# Task 6:build own culculator
+  **Write a program that imports all functions from the file calculator_1.py and handles basic operations.
+    Usage: ./100-my_calculator.py a operator b
+If the number of arguments is not 3, your program has to:
+print Usage: ./100-my_calculator.py <a> <operator> <b> followed with a new line
+exit with the value 1
+operator can be:
++ for addition
+- for subtraction
+* for multiplication
+/ for division**
