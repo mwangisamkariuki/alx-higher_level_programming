@@ -7,7 +7,7 @@ the value 1 to a variable called a
 the value 2 to a variable called b**
 
 # Task 1: My first toolbox!
-$$
+```python
 Write a program that imports functions from the file calculator_1.py,
 does some Maths, and prints the result.
 Do not use the function print (with string format to display integers) more than 4 times
@@ -20,4 +20,11 @@ Your program should call each of the imported functions. See example below for f
 the word calculator_1 should be used only once in your file
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported
-$$
+```
+# Task 2: Write a program that prints the number of and the list of its arguments.
+**The output should be:
+Number of argument(s) followed by argument
+(if number is one) or arguments (otherwise), followed by
+: (or . if no arguments were passed) followed by
+a new line, followed by (if at least one argument),
+one line per argument:**
