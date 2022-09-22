@@ -28,3 +28,11 @@ Number of argument(s) followed by argument
 : (or . if no arguments were passed) followed by
 a new line, followed by (if at least one argument),
 one line per argument:**
+
+# Task 3: Infinite addition
+**Write a program that prints the result of the addition of all arguments
+The output should be the result of the addition of all arguments,
+followed by a new line
+You can cast arguments into integers by using int()
+(you can assume that all arguments can be casted into integers)
+Your code should not be executed when imported**
