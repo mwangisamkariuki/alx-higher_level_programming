@@ -1,0 +1,7 @@
+# Task 0:0. Print a list of integers
+    Write a function that prints all integers of a list.
+    Prototype: def print_list_integer(my_list=[]):
+    Format: one integer per line. See example
+    You are not allowed to import any module
+    You can assume that the list only contains integers
+# Task 1:
