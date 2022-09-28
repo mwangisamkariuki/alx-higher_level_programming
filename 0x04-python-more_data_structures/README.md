@@ -40,10 +40,16 @@
     Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
     Dictionary values can have any type
     You are not allowed to import any module
-# Write a function that replaces or adds key/value in a dictionary.
+# Write a function that replaces or adds key/value in a dictionary.***
     Prototype: def update_dictionary(a_dictionary, key, value):
     key argument will be always a string
     value argument will be any type
     If a key exists in the dictionary, the value will be replaced
     If a key doesn’t exist in the dictionary, it will be created
+    You are not allowed to import any module
+# 8. Simple delete by key
+    Write a function that deletes a key in a dictionary.
+    Prototype: def simple_delete(a_dictionary, key=""):
+    key argument will be always a string
+    If a key doesn’t exist, the dictionary won’t change
     You are not allowed to import any module
