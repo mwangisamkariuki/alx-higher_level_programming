@@ -19,8 +19,13 @@
     Write a function that adds all unique integers in a list (only once for each integer).
     Prototype: def uniq_add(my_list=[]):
     You are not allowed to import any module
-# Task: Present in both
+# Task 3 : Present in both
     Write a function that returns a set of common elements in two sets.
     Prototype: def common_elements(set_1, set_2):
     You are not allowed to import any module
     guillaume@ubuntu:~/0x04$ cat 3-main.py
+# Task 4: Only differents(Uonion)
+    Write a function that returns a set of all elements present in only one set.
+    Prototype: def only_diff_elements(set_1, set_2):
+    You are not allowed to import any module
+# Task 5: 
