@@ -24,7 +24,7 @@
     Prototype: def common_elements(set_1, set_2):
     You are not allowed to import any module
     guillaume@ubuntu:~/0x04$ cat 3-main.py
-# Task 4: Only differents(Uonion)
+# Task 4: Only differents
     Write a function that returns a set of all elements present in only one set.
     Prototype: def only_diff_elements(set_1, set_2):
     You are not allowed to import any module
@@ -32,3 +32,12 @@
     Write a function that returns the number of keys in a dictionary.
     Prototype: def number_keys(a_dictionary):
     You are not allowed to import any module
+# Task 6 Print sorted dictionary****
+    Write a function that prints a dictionary by ordered keys.
+    Prototype: def print_sorted_dictionary(a_dictionary):
+    You can assume that all keys are strings
+    Keys should be sorted by alphabetic order
+    Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
+    Dictionary values can have any type
+    You are not allowed to import any module
+# 
