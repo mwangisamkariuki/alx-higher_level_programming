@@ -49,3 +49,22 @@
     Write a function that raises a name exception with a message.
     Prototype: def raise_exception_msg(message=""):
     You are not allowed to import any module
+
+# Advanced tasks
+# Task 7: Safe integer print with error message
+    Write a function that prints an integer.
+    Prototype: def safe_print_integer_err(value):
+    value can be any type (integer, string, etc.)
+    The integer should be printed followed by a new line
+    Returns True if value has been correctly printed (it means the value is an integer)
+    Otherwise, returns False and prints in stderr the error precede by Exception:
+    You have to use try: / except:
+    You have to use "{:d}".format() to print as integer
+    You are not allowed to use type()
+# Task 8:Safe function 
+    Write a function that executes a function safely.
+    Prototype: def safe_function(fct, *args):
+    You can assume fct will be always a pointer to a function
+    Returns the result of the function,
+    Otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:
+    You have to use try: / except:
