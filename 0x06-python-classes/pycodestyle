@@ -1,3 +1,5 @@
 #!/usr/bin/bash
 pycodestyle *.py
+# check documentation
+python3 -c 'print(__import__("my_module").__doc__)'
 

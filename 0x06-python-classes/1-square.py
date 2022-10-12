@@ -1,15 +1,14 @@
 #!/usr/bin/python3
 
-# Defining a class Square.
+"""Defining a class Square."""
 
 
 class Square:
-    # This is the starting point of a class
+    """This is the starting point of a class"""
 
     def __init__(self, size):
-        """define an empty Square class
-
+        """Initialize a new Square.
         Args:
-            size (int): The first paramenter is of type (int)
+            size (int): The size of the new square.
         """
         self.__size = size
