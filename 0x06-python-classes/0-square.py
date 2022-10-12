@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
+"""Define a class Square."""
+
 
 class Square:
-    def my_square():
-        print("{}")
+    pass
