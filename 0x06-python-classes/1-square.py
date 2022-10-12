@@ -8,7 +8,8 @@ class Square:
 
     def __init__(self, size):
         """define an empty Square class
+
         Args:
-            Square size is of type (int)
+            size (int): The first paramenter is of type (int)
         """
         self.__size = size
