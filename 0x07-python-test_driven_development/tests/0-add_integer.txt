@@ -1,0 +1,47 @@
+
+===========================
+How to Use 0-add_integer.py
+===========================
+
+add_integer returns the addition of two arguments of ```type int```
+
+::
+testing addition of numbers (ints) only
+    >>> add_integer = __import__('0-add_integer').add_integer
+    >>> add_integer(2, 1)
+    3
+
+::
+    >>> add_integer(2, -4)
+    -2
+
+::
+# testing float number
+    >>> add_integer(2.5, 5)
+    7
+
+::
+    >>> add_integer(2)
+    100
+
+::
+# Testing addition with a string
+    >>> add_integer("hello", 2)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+::
+    >>> add_integer(2, "hello")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+::
+    >>> add_integer("hello")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+::
+    # Testing out with string alone
+    >>> add_integer("hello", "there")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
