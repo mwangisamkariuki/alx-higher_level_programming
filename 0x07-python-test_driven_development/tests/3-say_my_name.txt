@@ -1,0 +1,38 @@
+
+===========================
+Test case to use for Use 3-say_my_name.py
+===========================
+
+This test module checks for errors in the function ``say_my_name()``
+
+::
+# Test name print when 2 strings are supplied
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("samuel","mwangi")
+    My name is samuel mwangi
+
+::
+# Test name printing with 1 int and strings
+    >>> say_my_name(1,"mwangi")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+# Test name printing with last name parameter
+    >>> say_my_name("mwangi")
+    My name is mwangi 
+
+::
+# Test name printing combined characters
+    >>> say_my_name("Brad", "2022New")
+    My name is Brad 2022New
+
+::
+    >>> say_my_name("Brad", "2022")
+    My name is Brad 2022
+
+::
+# 3 Arguments/parameters given
+    >>> say_my_name("Brad", "New", "2022")
+    Traceback (most recent call last):
+    TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
