@@ -1,0 +1,34 @@
+=================================
+Test case for Print_square with #
+==================================
+
+This is a test case for ``Print_square`` 
+and returns a Printed square using #
+
+::
+Test square Print using +ve Numbers
+    >>> print_square = __import__('4-print_square').print_square
+    >>> print_square(2)
+    ##
+    ##
+
+::
+Test square Print using -ve Numbers
+    >>> print_square(-2)
+    Traceback (most recent call last):
+    ValueError: size must be >=0
+
+::
+Test square print with a float number
+    >>> print_square(2.5)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+
+::
+Test square printing with non-numeric
+    >>> print_square("hello")
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+::test with 0 failed
