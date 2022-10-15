@@ -26,5 +26,14 @@
 # Task 3. Write a function that prints My name
     Write a function that prints My name is <first name> <last name>
     Prototype: def say_my_name(first_name, last_name=""):
-    first_name and last_name must be strings otherwise, raise a TypeError exception with the message first_name must be a string or last_name must be a string
+    first_name and last_name must be strings otherwise, 
+	raise a TypeError exception with the message,
+	 first_name must be a string or last_name must be a string
     You are not allowed to import any module
+# Task 4.Text Identation
+	Write a function that prints a text with 2 new lines after
+	each of these characters .,? and :
+	prototype: def text_identation(text)
+	text must be a string
+	There should be no space at teh start or at the end of each printed line
+

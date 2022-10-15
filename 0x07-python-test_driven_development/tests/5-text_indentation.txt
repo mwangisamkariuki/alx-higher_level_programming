@@ -1,0 +1,36 @@
+
+======================
+Case test to ``Text-identation``
+=======================
+
+This is a module doctest that tests
+5-text_identation.python3
+
+usage
+======
+
+Test case using a 3 line string
+
+::
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+    >>> text_indentation("""Samuel loves coding. Mwangi loves gaming too. Lets have some fun! don't we?""")
+    Samuel loves coding.
+    <BLANKLINE>
+    Mwangi loves gaming too.
+    <BLANKLINE>
+    Lets have some fun! don't we?
+    <BLANKLINE>
+
+Test using 1 line string
+::
+    >>> text_indentation ("""Hello Samuel?""")
+    Hello Samuel?
+    <BLANKLINE>
+
+
+Testing with non string variables
+::
+    >>> text_indentation (12345099786786676776746376374687364)
+    Traceback (most recent call last):
+    TypeError: text must be a string
