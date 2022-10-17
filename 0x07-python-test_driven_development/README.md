@@ -83,3 +83,6 @@ We strongly encourage you to work together on test cases, so that you don’t mi
 
     You are not allowed to import any module
 ```
+# Task 8: Lazy matrix multiplication
+write a functionthat multiplies 2 matrices using the Numpy
+to isntall it: pip3 install numpy == 1.15.0
