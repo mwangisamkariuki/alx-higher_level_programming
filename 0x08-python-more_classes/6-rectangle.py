@@ -6,13 +6,12 @@
 class Rectangle:
     """that defines a rectangle by: (based on 0-rectangle.py)"""
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """a function that defines the arguments of a rectangle"""
         self.width = width
         self.height = height
         type(self).number_of_instances += 1
-        
-        
 
     @property
     def width(self):
