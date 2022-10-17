@@ -5,14 +5,14 @@
 
 class Rectangle:
     """that defines a rectangle by: (based on 0-rectangle.py)"""
-    def __init__(self, height=0, width=0):
+    def __init__(self, width=0, height=0):
         """a function that defines the arguments of a rectangle"""
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """gets the width of a rectangle"""
+        """retrieves the width of a rectangle"""
         return self.__width
 
     @width.setter
