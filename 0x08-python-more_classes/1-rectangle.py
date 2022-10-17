@@ -5,7 +5,7 @@
 
 class Rectangle:
     """that defines a rectangle by: (based on 0-rectangle.py)"""
-    def __init__(self, height = 0, width = 0):
+    def __init__(self, height=0, width=0):
         """a function that defines the arguments of a rectangle"""
         self.width = width
         self.height = height
