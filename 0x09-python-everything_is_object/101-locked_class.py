@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-LockedClass = __import__('101-locked_class').LockedClass
-
-lc = LockedClass()
-lc.first_name = "John"
-try:
-    lc.last_name = "Snow"
-except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+"""Defines a locked class."""
 
 
+class LockedClass:
+    """
+    Prevent the user from Dynamcaaly creating a new instance attributes
+    except if the new instance attributes.
+    """
+
+    __slots__ = ["first_name"]
