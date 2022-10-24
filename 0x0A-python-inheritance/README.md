@@ -8,7 +8,24 @@ Public instance method: def print_sorted(self): that prints the list, but sorted
 Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.
 Prototype: def is_same_class(obj, a_class):
 # Task 3: Same class or inherit from
-rite a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+rite a function that returns True if the object is an instance of,
+or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 Prototype: def is_kind_of_class(obj, a_class):
+# Task 4:def is_kind_of_class(obj, a_class):
+Write a function that returns True if the object is an instance of,
+or if the object is an instance of a class that inherited from,
+the specified class ; otherwise False.
+Prototype: def is_kind_of_class(obj, a_class):
+You are not allowed to import any module
+# Task 5:Only sub class of
+Write a function that returns True if the object is an instance of a class
+that inherited (directly or indirectly) from the specified class ;
+otherwise False.
+Prototype: def inherits_from(obj, a_class):
+
+# Task 4:
+
+# Task 4:
+
 
 
