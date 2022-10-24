@@ -3,7 +3,7 @@
 
 
 class BaseGeometry:
-    """This class impliments Geometry"""
+    """This class defines  base Geometry"""
 
     def area(self):
         """Area Not Implimented"""
