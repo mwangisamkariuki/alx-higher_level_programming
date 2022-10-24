@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""the Module impliments Geometry"""
+"""defines a geometry base class prototype"""
 
 
 class BaseGeometry:
