@@ -1,14 +1,5 @@
-Test for 1-my_list.py
-
-This test module define a list printed in a sorted oorder
-
-import
 >>> MyList = __import__('1-my_list').MyList
->>>
 
-Usage
-===============================
-```returns a sorted list for the 'MyList' module```
 Case 1: with positive int
 >>> my_list = MyList()
 >>> my_list.append(1)
