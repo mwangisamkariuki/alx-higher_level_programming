@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-""" Manipulate lists of integers
-"""
+"""defines a module MyList that inheritslist"""
 
 
 class MyList(list):
-    """ Manage a list of integers
-    """
+    """prints a sorted list"""
+
     def print_sorted(self):
-        """ Print a list sorted in ascending order
-        """
+        """prints a list sorted in ascending order"""
         print(sorted(self))

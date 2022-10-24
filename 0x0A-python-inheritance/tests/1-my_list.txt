@@ -3,6 +3,10 @@
 >>> my_list.print_sorted()
 []
 
+>>> my_list.append(0)
+>>> my_list.print_sorted()
+[0]
+
 Case 1: with positive int
 >>> my_list = MyList()
 >>> my_list.append(1)
@@ -27,6 +31,17 @@ Case 2: with negative int
 >>> my_list.print_sorted()
 [-5, -4, -3, -2, -1]
 
+>>> my_list = MyList()
+>>> my_list.append(-1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(-3)
+>>> my_list.append(5)
+>>> print(my_list)
+[-1, 4, 2, -3, 5]
+>>> my_list.print_sorted()
+[-3, -1, 2, 4, 5]
+
 case 3: Empty list
 >>> a = []
 >>> my_list = MyList(a)
@@ -34,7 +49,6 @@ case 3: Empty list
 []
 >>> my_list.print_sorted()
 []
-
 
 case 4: with 1 Number
 >>> my_list = MyList()
@@ -47,3 +61,15 @@ case 5: sorting with no class
 >>> my_list.print_sorted()
 Traceback (most recent call last):
 AttributeError: 'list' object has no attribute 'print_sorted'
+
+Case 6: Testing with non integers
+>>> my_list = MyList()
+>>> my_list.append(4.5)
+>>> my_list.append(9.5)
+>>> my_list.append(3.5)
+>>> my_list.append(2.5)
+>>> my_list.append(1.5)
+>>> print(my_list)
+[4.5, 9.5, 3.5, 2.5, 1.5]
+>>> my_list.print_sorted()
+[1.5, 2.5, 3.5, 4.5, 9.5]

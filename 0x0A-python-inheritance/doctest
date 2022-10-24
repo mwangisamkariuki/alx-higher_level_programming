@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m doctest -v ./tests/1-my_list.txt
+python3 -m doctest ./tests/*
