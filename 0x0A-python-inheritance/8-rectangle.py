@@ -1,7 +1,5 @@
-
 #!/usr/bin/python3
 """Defines Module impliments Geometry"""
-
 
 
 class BaseGeometry:
