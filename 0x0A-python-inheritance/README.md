@@ -34,5 +34,7 @@ You are not allowed to import any module
 # Task 8: Rectangle
 Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
 
+# Task 9:
+
 
 

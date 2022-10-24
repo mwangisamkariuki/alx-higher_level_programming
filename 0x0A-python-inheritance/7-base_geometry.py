@@ -1,17 +1,18 @@
 #!/usr/bin/python3
-"""This Module impliments Geometry"""
+"""the Module impliments Geometry"""
 
 
 class BaseGeometry:
     """This class impliments Geometry"""
 
     def area(self):
-        """Not Implimented"""
+        """Area Not Implimented"""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """function to validate parameters as an Int
-        TypeError if Value is not an Int"""
+        TypeError if Value is not an Int
+        """
         self.name = name
         self.value = value
 
