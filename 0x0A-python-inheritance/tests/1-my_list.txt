@@ -47,13 +47,3 @@ case 5: sorting with no class
 >>> my_list.print_sorted()
 Traceback (most recent call last):
 AttributeError: 'list' object has no attribute 'print_sorted'
->>> my_list = MyList()
->>> my_list.append("sam")
->>> my_list.append("u")
->>> my_list.append("e")
->>> my_list.append("l")
->>> my_list.append(5)
->>> print(my_list)
-['sam', 'u', 'e', 'l', 5]
->>> my_list.print_sorted()
-[5, 'e', 'l', 'sam', 'u']
