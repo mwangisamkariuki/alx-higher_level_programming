@@ -1,0 +1,2 @@
+#!/usr/bin/python3
+python -m doctest -v ./tests/1-my_list.txt
