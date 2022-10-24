@@ -2,6 +2,8 @@
 >>> my_list = MyList()
 >>> my_list.print_sorted()
 []
+
+Case 1: with positive int
 >>> my_list = MyList()
 >>> my_list.append(1)
 >>> my_list.append(4)
@@ -12,6 +14,8 @@
 [1, 4, 2, 3, 5]
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
+
+Case 2: with negative int
 >>> my_list = MyList()
 >>> my_list.append(-1)
 >>> my_list.append(-4)
@@ -22,16 +26,23 @@
 [-1, -4, -2, -3, -5]
 >>> my_list.print_sorted()
 [-5, -4, -3, -2, -1]
+
+case 3: Empty list
 >>> a = []
 >>> my_list = MyList(a)
 >>> print(my_list)
 []
 >>> my_list.print_sorted()
 []
+
+
+case 4: with 1 Number
 >>> my_list = MyList()
 >>> my_list.append(1)
 >>> print(my_list)
 [1]
+
+case 5: sorting with no class
 >>> my_list = [1,2,3]
 >>> my_list.print_sorted()
 Traceback (most recent call last):
