@@ -1,4 +1,7 @@
 >>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
 
 Case 1: with positive int
 >>> my_list = MyList()
@@ -30,7 +33,7 @@ case 3: Empty list
 >>> print(my_list)
 []
 >>> my_list.print_sorted()
-
+[]
 
 
 case 4: with 1 Number
