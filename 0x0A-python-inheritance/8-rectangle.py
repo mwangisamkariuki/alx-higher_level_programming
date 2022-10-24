@@ -21,8 +21,9 @@ class BaseGeometry:
             raise ValueError("{} must be greater than 0".format(name))
 
 
-class Rectangle(BaseGeometry):
-    """Class rectangle inherits from BaseGeometry"""
+class Rectangle (BaseGeometry):
+    """ module impiments a rectangle that inherits from BaseGeometry class"""
+
     def __init__(self, width, height):
         """Intialize a new Rectangle.
         Args:
