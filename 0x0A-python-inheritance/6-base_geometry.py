@@ -5,6 +5,6 @@
 class BaseGeometry():
     """This class impliments Geometry"""
 
-
-    def area (self):
-        raise Exception ("area () is nor Implemented")
+    def area(self):
+        """Defines the area of the Base geometry"""
+        raise Exception("area() is nor Implemented")
