@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""defines a geometry base class prototype"""
+"""Defines Module impliments Geometry"""
 
 
 class BaseGeometry:
-    """This class defines  base Geometry"""
+    """a class that represents a base Geometry"""
 
     def area(self):
         """Area Not Implimented"""
