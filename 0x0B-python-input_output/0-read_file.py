@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Impliments  file handling"""
+"""Module that impliments  file handling"""
 
 
 def read_file(filename=""):
     """reads a text files and prints it to stdout"""
-    with open(filename, encoding="utf-8") as MyFile:
+
+    with open(filename) as MyFile:
         print(MyFile.read())
