@@ -5,9 +5,11 @@
 # Task 3 . Validate attribute
 # Task 4 . Area First
 # Task 5 . Display #0
-# Task 6 .
-# Task 1 .
-# Task 1 .
+# Task 6 .__str__ ()
+    Update the class Rectangle by overriding the __str__ method so
+    that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
+# Task 7 . 
+# Task 8 .
 # Task 1 .
 # Task 1 .
 # Task 1 .
