@@ -26,4 +26,6 @@
 # Task 13 .Rectanlge instance to Dictionary Representation
 # Task 14 .Square instance to disctionary representation
 # Task 15 .Dictionary to JSON string
-# Task 16 .
+# Task 16 .Json string to dictionary
+# Task 18 .Dictionary to instance
+
