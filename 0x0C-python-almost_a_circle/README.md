@@ -24,5 +24,6 @@
     update the class square by  adding the getter and setter size
 # Task 12 . Square update (*args and **kwargs)
 # Task 13 .Rectanlge instance to Dictionary Representation
-# Task 14 .
-# Task 15 .
+# Task 14 .Square instance to disctionary representation
+# Task 15 .Dictionary to JSON string
+# Task 16 .
