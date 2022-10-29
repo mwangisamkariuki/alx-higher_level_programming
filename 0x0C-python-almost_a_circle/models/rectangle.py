@@ -95,17 +95,17 @@ class Rectangle(Base):
                                                        self.x, self.y,
                                                        self.width, self.height)
 
-    def update(self, *args,**kwargs):
+    def update(self, *args, **kwargs):
         """update assigns arguments to each attribute
-        
+
         Args:
             1st argument should be the id attribute
             2nd argument should be the width attribute
             3rd argument should be the height attribute
             4th argument should be the x attribute
             5th argument should be the y attribute
-			*args (ints): New attribute values.without keyword
-			**kwargs (dict): New key value pairs(Keyworded arguments)
+            *args (ints): New attribute values.without keyword
+            **kwargs (dict): New key value pairs(Keyworded arguments)
 
         """
         if args and len(args) != 0:
@@ -142,4 +142,12 @@ class Rectangle(Base):
                 elif k == "y":
                     self.y = v
 
-
+    def to_dictionary(self):
+        """Return the dictionary representation of a Rectangle."""
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
