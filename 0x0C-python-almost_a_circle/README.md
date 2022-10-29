@@ -20,8 +20,9 @@
     that assigns a key/value argument to attributes:
 # Task 10 .And Now the Square
     Write the class Square that inherits from Rectangle:
-# Task 11 .
-# Task 12 .
+# Task 11 .Square Size
+    update the class square by  adding the getter and setter size
+# Task 12 . Square update (*args and **kwargs)
 # Task 13 .Rectanlge instance to Dictionary Representation
-# Task 14 .And now a square
+# Task 14 .
 # Task 15 .
