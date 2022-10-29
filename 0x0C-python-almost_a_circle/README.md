@@ -4,7 +4,7 @@
 # Task 2 . First Rectangle
 # Task 3 . Validate attribute
 # Task 4 . Area First
-# Task 5 .
+# Task 5 . Display #0
 # Task 6 .
 # Task 1 .
 # Task 1 .
