@@ -95,7 +95,7 @@ class Rectangle(Base):
                                                        self.x, self.y,
                                                        self.width, self.height)
 
-    def update(self, *args):
+    def update(self, *args,**kwargs):
         """update assigns arguments to each attribute
         
         Args:
@@ -105,7 +105,7 @@ class Rectangle(Base):
             4th argument should be the x attribute
             5th argument should be the y attribute
 			*args (ints): New attribute values.without keyword
-			**kwargs (dict): New key value pairs
+			**kwargs (dict): New key value pairs(Keyworded arguments)
 
         """
         if args and len(args) != 0:

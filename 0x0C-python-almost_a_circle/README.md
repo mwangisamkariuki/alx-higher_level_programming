@@ -11,8 +11,13 @@
 # Task 7 . Display #1
     Update the class Rectangle by improving the public method def display(self):
     to print in stdout the Rectangle instance with the character # by taking care of x and y
-# Task 8 .
-# Task 1 .
+# Task 8 .Update #0
+    Update the class Rectangle by adding the public method def update(self, *args): 
+    that assigns an argument to each attribute:
+# Task 9 . Update #1
+    Update the class Rectangle by updating the public method def update(self, *args):
+    by changing the prototype to update(self, *args, **kwargs)
+    that assigns a key/value argument to attributes:
 # Task 1 .
 # Task 1 .
 # Task 1 .
