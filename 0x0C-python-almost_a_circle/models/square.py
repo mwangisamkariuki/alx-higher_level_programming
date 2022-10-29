@@ -3,7 +3,6 @@
 from models.rectangle import Rectangle
 
 
-
 class Square(Rectangle):
     """Represent a square."""
 
@@ -18,7 +17,7 @@ class Square(Rectangle):
         """
 
         super().__init__(size, size, x, y, id)
- 
+
     @property
     def size(self):
         """Get/set the size of the Square."""
