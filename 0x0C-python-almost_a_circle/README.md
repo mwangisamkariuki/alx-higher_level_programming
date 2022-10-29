@@ -8,7 +8,9 @@
 # Task 6 .__str__ ()
     Update the class Rectangle by overriding the __str__ method so
     that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
-# Task 7 . 
+# Task 7 . Display #1
+    Update the class Rectangle by improving the public method def display(self):
+    to print in stdout the Rectangle instance with the character # by taking care of x and y
 # Task 8 .
 # Task 1 .
 # Task 1 .

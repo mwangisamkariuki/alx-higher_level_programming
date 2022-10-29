@@ -82,7 +82,7 @@ class Rectangle(Base):
         if self.width == 0 or self.width == 0:
             print("")
             return
-        
+
         [print("") for y in range(self.y)]
         for h in range(self.height):
             [print(" ", end="") for x in range(self.x)]
@@ -90,7 +90,7 @@ class Rectangle(Base):
             print("")
 
     def __str__(self):
-            """Return the print() and str() representation of the Rectangle."""
-            return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                        self.x, self.y,
-                                                        self.width, self.height)
+        """Return the print() and str() representation of the Rectangle."""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
+                                                       self.x, self.y,
+                                                       self.width, self.height)
