@@ -72,4 +72,6 @@
         The function must be visible from outside
         Prototype: function (number, theFunction)
         You are not allowed to use var
-# Task 17:
+# Task 17: Incriment Objects
+    Update this script by adding a new function incr that increments the integer value.
+    You are not allowed to use var
