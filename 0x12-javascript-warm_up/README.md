@@ -16,7 +16,10 @@
         Otherwise, print “Arguments found”
 # Task 3: Value of my argument
     A script that prints the first argument passed to it:
-# Task 0:
+# Task 4: create a sentence
+    Write a script that prints two arguments passed to it, in the following format: “ is ”
+    You must use console.log(...) to print all output
+    You are not allowed to use var
 # Task 0:
 # Task 0:
 # Task 0:
