@@ -6,9 +6,9 @@ const x = Math.floor(Number(process.argv[2]));
 if (isNaN(x)) {
   console.log('Missing size');
 } else {
-  for (let row = 0; row < x; row++){
+  for (let r = 0; r < x; r++){
     let row = '';
-    for (let column = 0; column < x; column++) row+='X';
+    for (let column = 0; column < x; column++) row += 'X';
     console.log(row)
   }
 }
