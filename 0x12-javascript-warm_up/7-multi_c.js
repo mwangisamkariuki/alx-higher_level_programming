@@ -3,7 +3,7 @@
 // Print 'C is fun" times the argument passed
 // Else print 'Missing number of occurences' if no argument
 const x = Math.floor(Number(process.argv[2]));
-if (isNaN(x)){
+if (isNaN(x)) {
   console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < x; i++) {
