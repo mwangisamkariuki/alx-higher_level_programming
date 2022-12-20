@@ -43,7 +43,9 @@
     You must use the class notation for defining your class and extends
     Create an instance method called charPrint(c) that prints the rectangle using the character c
     If c is undefined, use the character X
-# Task 2:
+# Task 7: Occurrences
+    Write a function that returns the number of occurrences in a list:
+    Prototype: exports.nbOccurences = function (list, searchElement)
 # Task 2:
 # Task 2:
 # Task 2:
