@@ -46,6 +46,9 @@
 # Task 7: Occurrences
     Write a function that returns the number of occurrences in a list:
     Prototype: exports.nbOccurences = function (list, searchElement)
-# Task 2:
-# Task 2:
+# Task 8: ESrever
+    Write a function that returns the reversed version of a list:
+    Prototype: exports.esrever = function (list)
+    You are not allow to use the built-in method reverse
+# Task 9:
 # Task 2:
