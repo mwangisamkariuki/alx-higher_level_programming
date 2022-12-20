@@ -50,5 +50,8 @@
     Write a function that returns the reversed version of a list:
     Prototype: exports.esrever = function (list)
     You are not allow to use the built-in method reverse
-# Task 9:
+# Task 9:Log me
+    Write a function that prints the number of arguments already printed and the new argument value. (see example below)
+    Prototype: exports.logMe = function (item)
+    Output format: <number arguments already printed>: <current argument value>
 # Task 2:
