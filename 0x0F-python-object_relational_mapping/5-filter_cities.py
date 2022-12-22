@@ -14,7 +14,7 @@ if __name__ == '__main__':
     querry = db.cursor()
     querry.execute("SELECT cities.id, cities.name, states.name \
     FROM cities JOIN states ON cities.state_id = states.id \
-    ORDER BY id;")
+    WHERE states.name = '{}';".format(sys.argv[4]))
+    states = querry.fetchall()
 
-    print(", ".join([state[2] for state in querry.fetchall() if
-          state[4] == sys.argv[4]]))
+    print(", ".join([state[1] for state in states]))
