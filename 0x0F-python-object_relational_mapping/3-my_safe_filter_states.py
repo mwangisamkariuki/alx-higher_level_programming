@@ -13,9 +13,9 @@ if __name__ == "__main__":
                          passwd=sys.argv[2], db=sys.argv[3])
     querry = db.cursor()
     querry.execute("SELECT * FROM states WHERE name LIKE %s ORDER BY \
-    id ASC", (argv[4]))
+    id ASC", (argv[4],))
     states = querry.fetchall()
     for state in states:
-        print(states)
+        print(state)
     querry.close()
     db.close()
