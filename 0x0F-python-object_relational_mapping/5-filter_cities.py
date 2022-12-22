@@ -13,8 +13,6 @@ if __name__ == '__main__':
 
     querry = db.cursor()
     querry.execute("SELECT cities.id, cities.name, states.name \
-    FROM cities JOIN states ON cities.state_id = states.id \
-    WHERE states.name = %s ORDER BY id ASC;".format(sys.argv[4]))
-    states = querry.fetchall()
+    FROM cities JOIN states ON cities.state_id = states.id ORDER BY id;")
 
-    print(", ".join([state[1] for state in states]))
+    print(", ".join([state[2] for state in querry.fetchall() if state[4] == sys.argv[4]]))
