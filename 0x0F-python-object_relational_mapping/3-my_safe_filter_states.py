@@ -16,7 +16,6 @@ if __name__ == "__main__":
     id ASC", (argv[4]))
     states = querry.fetchall()
     for state in states:
-        if state[1] == sys.argv[4]:
-            print(state)
+        print(states)
     querry.close()
     db.close()
