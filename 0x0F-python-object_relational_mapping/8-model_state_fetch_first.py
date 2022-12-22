@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
 Lists the first State objects from the database hbtn_0e_6_usa.
-our script should take 3 arguments: mysql username,
-mysql password and database name
+our script should take 3 arguments:
 must import State and Base from (model_state)
 If the table states is empty, print Nothing followed by a new line
 """
@@ -17,6 +16,8 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
+
+    state = session.query(State).order_by(State.id).first()
     if state is None:
         print("Nothing")
     else:
