@@ -9,7 +9,7 @@
 # Task 8: First State (a script that prints the first State object from the database hbtn_0e_6_usa)
 # Task 9: contains 'a' a script that lists all State objects that contain the letter a
 # Task 10: Get a state (a script that prints the state objects with name passed as arguments)
-# Task 11: 
+# Task 11: Add A new state (A script that adds a new state object (Louisiana) to the database
 # Task 12:
 # Task 13:
 # Task 14:
