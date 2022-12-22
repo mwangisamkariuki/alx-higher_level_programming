@@ -6,7 +6,7 @@
 # Task 5: All cities by state argument
 # Task 6: First State Model
 # Task 7: All states via SQLAlchemy (a script that lists all State objects from the database hbtn_0e_6_usa)
-# Task 8:
+# Task 8: First State (a script that prints the first State object from the database hbtn_0e_6_usa)
 # Task 3:
 # Task 3:
 # Task 3:
