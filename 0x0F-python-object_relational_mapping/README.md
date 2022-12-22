@@ -11,7 +11,7 @@
 # Task 10: Get a state (a script that prints the state objects with name passed as arguments)
 # Task 11: Add A new state (A script that adds a new state object (Louisiana) to the database
 # Task 12: Update a state (a script that changes the name of a State)
-# Task 13:
-# Task 14:
+# Task 13: Deletes a state
+# Task 14: Cities in state
 # Task 15:
 # Task 16:
