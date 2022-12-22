@@ -4,7 +4,7 @@
 # Task 4: SQl Injection
 # Task 5: Cities by states
 # Task 6: All cities by state argument
-# Task 3: State Model
+# Task 3: First State Model
 # Task 3:
 # Task 3:
 # Task 3:
