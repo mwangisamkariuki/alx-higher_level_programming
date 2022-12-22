@@ -10,7 +10,7 @@ import MySQLdb
 
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], port=3306, host="localhost",
-                         passwd=sys.argv[2], db=sys.argv[3])
+                         passwd=sys.argv[2], db=argv[3])
     querry = db.cursor()
     querry.execute("SELECT * FROM states WHERE name LIKE %s ORDER BY \
     id ASC", (argv[4],))
